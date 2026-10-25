@@ -1,4 +1,5 @@
 
+import OrderForm from "./OrderForm";
 import "./App.css";
 
 const ownerPhone = "918275272899";
@@ -15,7 +16,7 @@ function App() {
         <a className="brand" href="#home">
           <div className="brand-icon">🌿</div>
           <div>
-            <strong><strong>आदर्श चौकी सेंटर, भंडारी</strong></strong>
+            <strong>आदर्श चौकी सेंटर, भंडारी</strong>
             <small>रेशीम अंडी विक्री केंद्र</small>
           </div>
         </a>
@@ -195,6 +196,7 @@ function App() {
             वर जा ↑
           </a>
         </section>
+        <OrderForm />
       </main>
 
       <footer className="footer">
